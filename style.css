@@ -1,0 +1,54 @@
+/* Import Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Clear initial padding and margin and set box-sizing */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Add page wide padding to sides and font */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header styling */
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 5rem;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+  align-items: center;
+
+  font-size: 18px;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
