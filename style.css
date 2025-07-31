@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   font-family: "Roboto", sans-serif;
 }
 
@@ -77,8 +77,10 @@ body {
 .hero-card {
   display: flex;
   flex-direction: column;
+  flex: auto;
   gap: 1rem;
   font-size: 18px;
+  max-width: 500px;
 }
 
 .hero-title {
@@ -104,12 +106,45 @@ body {
 }
 
 .hero-image {
-  display: flex;
   align-self: center;
+  max-height: auto;
+  flex: 2 1 600px;
+  height: 150px;
+  background-color: #e5e7eb;
+}
+
+/* Information cards section */
+.information-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 200px;
+  gap: 1rem;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 150px;
-  width: 450px;
-  background-color: #e5e7eb;
+  max-width: 300px;
+}
+
+.card > .image {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 20px;
 }
