@@ -191,7 +191,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 6rem 0;
+  padding: 4rem 0;
   background-color: #3882f6;
   border-radius: 10px;
 }
@@ -220,4 +220,17 @@ body {
   color: #3882f6;
   background-color: #e5e7eb;
   border-color: #3882f6;
+}
+
+/* Footer section */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: auto;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  width: 100%;
+  padding: 2rem 0;
 }
