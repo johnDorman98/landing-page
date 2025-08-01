@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
   font-family: "Roboto", sans-serif;
 }
 
@@ -139,6 +139,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  min-width: 100px;
   max-width: 300px;
 }
 
@@ -147,4 +148,33 @@ body {
   width: 200px;
   border: 5px solid #3882f6;
   border-radius: 20px;
+}
+
+/* Quote section */
+.quote-section {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+  width: 100%;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+  padding: 2rem;
+}
+
+.quote-text {
+  font-size: 36px;
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-author {
+  margin-left: auto;
 }
