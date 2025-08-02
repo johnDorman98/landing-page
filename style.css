@@ -52,6 +52,7 @@ body {
 
 .logo {
   margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 900;
   color: #f9faf8;
@@ -69,6 +70,7 @@ body {
 /* Hero section styling */
 .hero-section {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 2rem;
   margin: 5rem 0;
@@ -96,7 +98,7 @@ body {
 
 .hero-card button {
   flex-shrink: 0;
-  max-width: 100px;
+  max-width: 200px;
   padding: 5px 10px;
   border-radius: 10px;
   color: #e5e7eb;
@@ -112,10 +114,13 @@ body {
 
 .hero-image {
   align-self: center;
-  max-height: auto;
-  flex: 2 1 600px;
-  height: 150px;
+  flex: 2 1 300px;
+  height: auto;
+  width: 100%;
+  max-width: 400px;
   background-color: #e5e7eb;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 /* Information cards section */
@@ -144,14 +149,16 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-width: 100px;
   max-width: 300px;
 }
 
 .card > .image {
-  height: 200px;
-  width: 200px;
-  border: 5px solid #3882f6;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  max-width: 150px;
+  max-height: 150px;
+  border: 2px solid #3882f6;
   border-radius: 20px;
 }
 
@@ -169,7 +176,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  width: 50%;
+  width: 80%;
   padding: 3rem;
 }
 
